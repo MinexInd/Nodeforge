@@ -2,24 +2,24 @@
 	"schemaVersion": 1,
 	"id": "nodeforge",
 	"version": "${version}",
-	"name": "Nodeforge",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"name": "NodeForge",
+	"description": "A reusable Minecraft Fabric library for building node-based editors, visual programming systems, skill trees, and other graph-based interfaces.",
 	"authors": [
-		"Me!"
+		"MinexInd"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://github.com/MinexInd/Nodeforge",
+		"sources": "https://github.com/MinexInd/Nodeforge"
 	},
-	"license": "CC0-1.0",
+	"license": "MIT",
 	"icon": "assets/nodeforge/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"net.minex.nodeforge.Nodeforge"
+			"net.minex.nodeforge.NodeForge"
 		],
 		"client": [
-			"net.minex.nodeforge.client.NodeforgeClient"
+			"net.minex.nodeforge.client.NodeForgeClient"
 		]
 	},
 	"mixins": [

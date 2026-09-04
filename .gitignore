@@ -38,3 +38,7 @@ hs_err_*.log
 replay_*.log
 *.hprof
 *.jfr
+logs/
+
+# local documentation rules
+[Ww]riting_[Rr]ules.md
